@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lotto2404</string>
+    <string name="title1">Lotto Simulation</string>
+    <string name="button1">Generate</string>
 </resources>

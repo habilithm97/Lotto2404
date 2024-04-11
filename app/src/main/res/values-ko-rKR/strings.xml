@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">로또2404</string>
+    <string name="title1">로또 시뮬레이션</string>
+    <string name="button1">추첨하기</string>
+</resources>
