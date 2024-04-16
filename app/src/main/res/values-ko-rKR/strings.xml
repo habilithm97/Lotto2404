@@ -3,8 +3,10 @@
     <string name="app_name">로또2404</string>
     <string name="title1">로또 시뮬레이션</string>
     <string name="button1">추첨하기</string>
-    <string name="title2">당첨번호 조회</string>
     <string name="tab1">시뮬레이션</string>
-    <string name="tab2">탭2</string>
+    <string name="tab2">당첨번호</string>
     <string name="tab3">탭3</string>
+    <string name="title2">당첨번호</string>
+    <string name="edit_text">회차를 입력하세요.</string>
+    <string name="button2">조회하기</string>
 </resources>

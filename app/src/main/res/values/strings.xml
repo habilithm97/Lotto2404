@@ -2,8 +2,10 @@
     <string name="app_name">Lotto2404</string>
     <string name="title1">Lotto Simulation</string>
     <string name="button1">Generate</string>
-    <string name="title2">Winning Number Inquiry</string>
     <string name="tab1">Simulation</string>
-    <string name="tab2">tab2</string>
+    <string name="tab2">Winning Numbers</string>
     <string name="tab3">tab3</string>
+    <string name="title2">Winning Numbers</string>
+    <string name="edit_text">Please enter the number of rounds.</string>
+    <string name="button2">Check</string>
 </resources>
