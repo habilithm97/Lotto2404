@@ -34,7 +34,7 @@ class Fragment1 : Fragment() {
     }
 
     private fun init() {
-        binding.btn.setOnClickListener {
+        binding.btnGenerate.setOnClickListener {
             val lottoNums = createLottoNumber()
             Log.d("Fragment1", lottoNums.toString())
             setLottoNums(lottoNums)

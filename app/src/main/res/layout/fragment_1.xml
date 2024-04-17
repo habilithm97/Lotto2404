@@ -7,7 +7,7 @@
     android:background="@color/black">
 
     <TextView
-        android:id="@+id/tv"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -21,20 +21,20 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/ballLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv">
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
             android:id="@+id/ball1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="5dp"
             android:text="-"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -46,7 +46,7 @@
             android:id="@+id/ball2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="5dp"
             android:text="-"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -58,7 +58,7 @@
             android:id="@+id/ball3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="5dp"
             android:text="-"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -70,7 +70,7 @@
             android:id="@+id/ball4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="5dp"
             android:text="-"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -82,7 +82,7 @@
             android:id="@+id/ball5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="5dp"
             android:text="-"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -94,7 +94,7 @@
             android:id="@+id/ball6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_margin="5dp"
             android:text="-"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -105,7 +105,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btnGenerate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -115,8 +115,8 @@
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ballLayout"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
